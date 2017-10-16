@@ -11,9 +11,9 @@
             </div>
         </div>
     </div>
-
 @endsection
 
 @section('content')
-    テスト
+    @include('items.items')
+    {!! $items->render() !!}
 @endsection
